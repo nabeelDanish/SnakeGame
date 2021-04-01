@@ -18,6 +18,16 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game-release.cpp" />
+    <ClCompile Include="util.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="save-file.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="util.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -140,13 +150,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="F:\My_Desktop\Assignments\Semester - II\Object Oriented Programming\PROJECT\Centipede\util.cpp" />
-    <ClCompile Include="F:\My_Desktop\Assignments\Semester - I\Programming Fundamentals\Project\game-release.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="F:\My_Desktop\Assignments\Semester - I\Programming Fundamentals\Project\util.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
